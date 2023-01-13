@@ -1,0 +1,166 @@
+/*-------PAGE--------*/
+html{
+    font-family: "Helvetica";
+    font-size:16px;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    margin:0;
+    padding:0;
+}
+
+button{
+    cursor:pointer;
+}
+
+.plain-button{
+    background:none;
+    border-style: none;
+}
+
+/*---------GOOGLE ICON---------*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*-------NAV--------*/
+.navbar-custom{
+    background-color:white;
+}
+
+.navbar-custom-link{
+    color:#212121;
+    transition: 0.3s;
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    font-size:22px;
+}
+
+.nav-item{
+    margin-left:30px;
+}
+
+.navbar-custom-link:hover{
+    color:#33a8de;
+}
+
+.navbar-nav{
+    margin-left:30px;
+}
+
+.navbar-brand{
+    margin-left:3vw;
+}
+
+.cart-icon{
+    margin-right:2vw;
+}
+
+.navbar-bottomline{
+    text-align:center;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(32,45,140), rgba(51,168,222));
+    border-image-slice: 1;
+    width:100%;
+}
+
+.search-button{
+    background:none;
+    border:none;
+    margin-right:3vw;
+    margin-left:1vw;
+}
+
+.dropdown-categories{
+    font-weight: 500;
+    color:#202d8c;
+    padding-left:8px;
+}
+
+/*-------HOME--------*/
+
+.banner{
+    height:500px;
+    width:100vw;
+    background-image: url(../img/homebanner.jpg);
+    background-size: cover;
+}
+
+.home-h1, .home-h2{
+    color:white;
+    text-align: center;
+    margin:auto;
+    padding: 5px
+}
+.home-h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 46px;
+    padding-top:60px;
+}
+.home-h2{
+    font-weight:300;
+    font-size: 22px;
+}
+
+.home-deals-button{
+    padding: 10px 25px 10px 25px;
+    background-color: #33a8de;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.home-deals-button:hover{
+    background-color:white;
+    color: #212121;
+}
+/*-------HOME - Cards --------*/
+
+.card-holder{
+    margin:18vh 8vw 4vh 8vw;
+}
+
+.custom-card{
+    margin-bottom:50px;
+    background-color:white;
+}
+
+.card-header{
+    background-color:white;
+    color:#212121;
+    font-size:18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-image{
+    object-fit: cover;
+}
+
+.card-icon{
+    font-size:50px;
+    color:#202d8c;
+}
+
+.center-icon{
+    text-align: center;
+    margin:auto;
+}
+
+/*-------SHOP--------*/
+
+/*-------SHOP - Sidebar--------*/
+
+.sidebar-custom{
+    width:200px;
+}

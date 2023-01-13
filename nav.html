@@ -1,0 +1,45 @@
+<nav class="navbar navbar-custom navbar-expand-lg">
+  <a class="navbar-brand navbar-custom-link" href="#">Arcane Emporium</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link navbar-custom-link" href="index.html">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-custom-link" href="#">Extra Pg</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link navbar-custom-link navbar-custom-link dropdown-toggle" id="navbarDropdown" href="shop.html" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <p class="dropdown-categories">Accessories</p>
+            <button id="btnWands" class="dropdown-item plain-button" onclick="sendToJS()">Wands and Staves</button>
+            <button id="btnClothing" class="dropdown-item plain-button" onclick="sendToJS()">Clothing</button>
+            <button id="btnJewelry" class="dropdown-item plain-button" onclick="setShopPage()">Jewelry</button>
+            <div class="dropdown-divider"></div>
+            <p class="dropdown-categories">Misc</p>
+            <button id="btnBooks" class="dropdown-item plain-button" onclick="setShopPage()">Books and Scrolls</button>
+            <button id="btnPotions" class="dropdown-item plain-button" onclick="setShopPage()">Potions</button>
+            <button id="btnGems" class="dropdown-item plain-button" onclick="setShopPage()">Gemstones</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+        <input class="form-control mr-sm-2 w-25" type="search" placeholder="Search" aria-label="Search">
+        <button class="search-button navbar-custom-link" type="submit">
+            <span class="material-symbols-outlined">
+            search
+            </span>
+        </button>
+        <a class="m-3 navbar-custom-link" href="cart.html">
+            <span class="material-symbols-outlined cart-icon">
+            shopping_cart
+            </span>
+        </a>
+</nav>
+<div class="navbar-bottomline"></div>
